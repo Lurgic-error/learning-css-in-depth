@@ -1,0 +1,64 @@
+:root {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body *+* {
+    margin-top: 2.5em;
+}
+
+.fade {
+    height: 200px;
+    width: 400px;
+    background-image: linear-gradient(90deg, white, blue);
+}
+
+.fade__repeat {
+    height: 1em;
+    width: 400px;
+    background-image: repeating-linear-gradient(-45deg,
+            #57b, #57b 10px, #148 10px, #148 20px);
+    border-radius: 0.3em;
+}
+
+.fade__radial {
+    height: 200px;
+    width: 400px;
+    background-image: radial-gradient(white, blue);
+}
+
+.fade__radial-circle {
+    height: 200px;
+    width: 400px;
+    background-image: radial-gradient(circle, white, midnightblue);
+}
+
+
+.fade__radial-sized {
+    height: 200px;
+    width: 400px;
+    background-image: radial-gradient(3em at 25% 25%, white, midnightblue);
+}
+
+
+.fade__radial-circle-positioned {
+    height: 200px;
+    width: 400px;
+    background-image: radial-gradient(circle, midnightblue 0%, white 75%, red 100%);
+}
+
+.fade__radial-striped {
+    height: 200px;
+    width: 400px;
+    background-image: repeating-radial-gradient(circle, midnightblue 0,
+            midnightblue 1em, white 1em, white 2em);
+}

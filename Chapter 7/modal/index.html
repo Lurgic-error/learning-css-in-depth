@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Modal</title>
+</head>
+
+<body>
+
+    <header class="header"><button id="open" class="modal-btn">Subscribe</button></header>
+
+    <div class="modal" id="modal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-body">
+            <button class="modal-close" id="close">close</button>
+            <h2 class="modal-title">Subscribe Today</h2>
+            <p class="modal-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni, consectetur. Quisquam alias ducimus
+                consectetur ab saepe repellendus. Id eius laudantium debitis tempore expedita officiis, molestiae
+                adipisci accusamus necessitatibus porro soluta!
+            </p>
+            <form>
+                <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="text" name="email"/>
+            </div>
+        <button type="submit" class="form-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

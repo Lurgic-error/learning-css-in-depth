@@ -1,0 +1,20 @@
+main {
+    transform: rotate(15deg);
+    display: grid;
+    grid-template-columns: 1000px 500px;
+  }
+  article {
+    height: 15000px;
+  }
+  .sticky {
+    height: 500px;
+    background: url(https://res.cloudinary.com/css-tricks/image/upload/c_scale,f_auto,q_auto,w_1000/v1573756131/surprised_mt36we.png) no-repeat;
+    width: 500px;
+    background-size: contain;
+    position: sticky;
+    top: 20px;
+    transform: translateY(-20px);
+  }
+  footer {
+    height: 1500px;
+  }
